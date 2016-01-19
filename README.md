@@ -8,7 +8,7 @@ Contains some util collection implementations
 
 | Package | Interfaces  | Thread-Safe |
 |---------|-------------|:-------:|
-| tk.saksmt.util.collections.CyclicCollection | java.util.Collection | X |
+| `tk.saksmt.util.collections.CyclicCollection` | `java.util.Collection` | &#x2713; |
 
 
 #### Description
