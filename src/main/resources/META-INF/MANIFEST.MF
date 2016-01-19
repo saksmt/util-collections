@@ -1,0 +1,1 @@
+Export-Package: tk.saksmt.util.collections.*;version=${project.version}
