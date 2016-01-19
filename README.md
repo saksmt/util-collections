@@ -6,7 +6,7 @@ Contains some util collection implementations
 
 ### CyclicCollection
 
-| Package | Interfaces  | Thread-Safe |
+| FQCN | Interfaces  | Thread-Safe |
 |---------|-------------|:-------:|
 | `tk.saksmt.util.collections.CyclicCollection` | `java.util.Collection` | &#x2713; |
 
