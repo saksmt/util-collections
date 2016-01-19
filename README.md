@@ -13,7 +13,7 @@ Contains some util collection implementations
 
 #### Description
 
-Collection based on cycled queue with specified size. Overflow of collection causes cyclic removal from end and addition of new element to head (see an example below)
+Collection based on cycled queue (ring buffer for Java Collections) with specified size. Overflow of collection causes cyclic removal from end and addition of new element to head (see an example below)
 
 Consider you have a `CyclicCollection<Integer>` with size of 3:
 
