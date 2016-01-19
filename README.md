@@ -7,7 +7,7 @@ Contains some util collection implementations
 ### CyclicCollection
 
 | Package | Interfaces  | Thread-Safe |
-|---------|-------------|-------|
+|---------|-------------|:-------:|
 | tk.saksmt.util.collections.CyclicCollection | java.util.Collection | X |
 
 
@@ -17,22 +17,22 @@ Collection based on cycled queue with specified size. Overflow of collection cau
 
 Consider you have a `CyclicCollection<Integer>` with size of 3:
 
-|---|
 | _ |
+|:-:|
 | _ |
 | _ |
 
 After addition of 3 elements you'd have:
 
-|---|
 | 1 |
+|:-:|
 | 2 |
 | 3 |
 
 Then you add one more element, let's say `4`, then you'd have:
 
-|---|
 | 2 |
+|:-:|
 | 3 |
 | 4 |
 
